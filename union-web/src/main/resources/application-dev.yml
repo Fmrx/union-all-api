@@ -6,8 +6,6 @@ spring:
     host: localhost
     # 端口，默认为6379
     port: 6379
-    # 密码
-    password: admin
     # 连接超时时间
     timeout: 10s
   # 数据源配置
@@ -16,8 +14,8 @@ spring:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://localhost:3306/union?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8&allowMultiQueries=true&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true
-      username: admin
-      password: admin
+      username: root
+      password: Apple123!
       # 配置检测连接是否有效
       validationQuery: SELECT 1 FROM DUAL
       statViewServlet:
@@ -72,8 +70,8 @@ knife4j:
 # JD配置
 jd:
   server-url: https://api.jd.com/routerjson
-  app-key: xxx
-  app-secret: xxx
+  app-key: b256d769f6184921cc6a70b2fd5cfe07
+  app-secret: c1ce80f01c4647a2956cedfde7b57615
 
 # PDD配置
 pdd:

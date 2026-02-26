@@ -1,2 +1,55 @@
-.idea/
-logs/
+target/
+build/
+logs
+log
+log-csp
+out
+!.mvn/wrapper/maven-wrapper.jar
+pid
+
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+!lib/*.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+rebel.xml
+*.bak
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.class
+.DS_Store
+.trae/
+*.db
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+# java
+.java-version
+/bin/
+/.vscode/
+/CLAUDE.md
+.cursor/
+
+AGENTS.md
+docs/
+/src/main/resources/application-local-dev.yml
+src/main/resources/websocket/lambda/*.md
+src/main/resources/websocket/appsync/*.md
+src/main/resources/websocket/*.md
+

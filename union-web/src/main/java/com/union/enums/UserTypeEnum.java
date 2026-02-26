@@ -19,7 +19,8 @@ public enum UserTypeEnum {
     MANAGER("MANAGER", "管理员"),
     OPERATOR("OPERATOR", "操作员"),
     DEALER("DEALER", "经销商"),
-    MEMBER("MEMBER", "会员");
+    MEMBER("MEMBER", "会员"),
+    WX_MP("WX_MP", "微信公众号用户");
 
     private final String code;
     private final String message;
